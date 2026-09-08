@@ -22,16 +22,21 @@ own machine.
 
 ### What the session covers
 
-The practical works through three methods, each on a dataset that ships with the
-package, so there is nothing to download:
+Every dataset ships with the package, so there is nothing to download.
 
-1. **PCA** on the `nutrimouse` data — unsupervised exploration, and sparse PCA
-   for variable selection.
-2. **PLS-DA** on the `srbct` data — supervised classification of tumour
+The practical opens with a short quick start on the `nutrimouse` data, running
+PCA and then sparse PCA just to establish the workflow every method follows: run
+the method, plot the samples, plot the variables. It then works through three
+case studies:
+
+1. **PCA** on the `srbct` data — the expression of 2,308 genes across 63 samples
+   in four tumour classes. Unsupervised exploration, colouring samples by tumour
+   subtype to help read the result.
+2. **PLS-DA** on the same `srbct` data — supervised classification of the tumour
    subtypes, then sparse PLS-DA to select the genes that discriminate them.
 3. **DIABLO** on the `breast.TCGA` data — integrating mRNA, miRNA and protein
-   measurements while discriminating breast cancer subtypes, and predicting the
-   subtypes of a held-out test set.
+   measurements while discriminating breast cancer subtypes, with an optional
+   final step predicting the subtypes of a held-out test set.
 
 Exercises are set throughout, with answers hidden behind show and hide buttons
 so you can attempt them first.
