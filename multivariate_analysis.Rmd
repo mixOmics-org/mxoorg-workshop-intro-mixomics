@@ -303,7 +303,7 @@ Let's run all the command lines above and discuss about the following points:
 
 2. Loadings plot: what does each bar represent? Let's change the parameters `contrib = 'max'` to `contrib = 'min'`. Let's now change the parameter `comp = 1` to  `comp = 2`. What do we observe? Now, let's interpret the loading plot in combination with the sample plot. Does the loading plot make sense in light of this additional information?
 
-3. Interpretation of the variable plot (correlation circle plot, refer to slides).
+3. Interpretation of the variable plot (correlation circle plot, refer to the presentation).
 
 4. Interpretation of the biplot.
 
@@ -327,7 +327,7 @@ Show solutions
 
 **2.2 Loading plots and sample plot:** from the sample plot we have observed that component 1 discriminates `r colorize("green", "RMS")` + `r colorize("blue", "EWS")` vs. `r colorize("grey", "NB")` + `r colorize("orange", "BL")`. We observe the same trend at the gene level from the loading plot, showing that these genes are the one driving the separation between this group of samples. (similar interpretation for component 2). Hence, the loading plot confirms what we have observed at the sample level on the sample plot.
 
-**3. Variable plot:** here we project the variables in the space spanned by the first two components by calculating the correlation between the variables, and the components (refer to slides). We only show the top genes with a correlation cutoff above 0.7 across both components. We observe a groups of genes that are positively correlated together (left and right hand side on the x-axis), and contribute to component 1 either negatively (left) or positively (right). These two groups are negatively correlated to each other. The trend is not as clear for component 2 (less genes and contribute less to component 2 on the y-axis).
+**3. Variable plot:** here we project the variables in the space spanned by the first two components by calculating the correlation between the variables, and the components (refer to the presentation). We only show the top genes with a correlation cutoff above 0.7 across both components. We observe a groups of genes that are positively correlated together (left and right hand side on the x-axis), and contribute to component 1 either negatively (left) or positively (right). These two groups are negatively correlated to each other. The trend is not as clear for component 2 (less genes and contribute less to component 2 on the y-axis).
 
 
 **4. Biplot:** overlays both samples (as dots) and variables (as arrows). Here we only show the top genes with a correlation cutoff above 0.7 across both components. We can now visualise the same set of genes as in the correlation circle plot, and how they relate (are over / under expressed) with the samples. 
@@ -514,7 +514,7 @@ selectVar(diablo.tcga)
 
 Run the code above, line by line.
 
-1. Sample plots: What do the sample plots `plot` and `plotIndiv` tell you about the ability of DIABLO to extract correlated information between data sets *and* to discriminate sample groups? Are there datasets that are more noisy than others? (remember that we decompose each data matrix with a set of components, and loading vectors, while maximising the correlation between the datasets, see slides).
+1. Sample plots: What do the sample plots `plot` and `plotIndiv` tell you about the ability of DIABLO to extract correlated information between data sets *and* to discriminate sample groups? Are there datasets that are more noisy than others? (remember that we decompose each data matrix with a set of components, and loading vectors, while maximising the correlation between the datasets, refer to the presentation).
 
 2. Variable plots: What do the variable plots `plotVar` and  `circosPlot` tell you about the correlation between the variables that were selected by DIABLO? 
 
