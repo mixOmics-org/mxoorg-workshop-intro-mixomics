@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# R session and project cruft
+.Rhistory
+.RData
+.Rproj.user/
+.Rapp.history
+*.Rproj
+
+# knitr / rmarkdown intermediates
+*_cache/
+*_files/
