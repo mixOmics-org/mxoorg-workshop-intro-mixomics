@@ -13,12 +13,9 @@ own machine.
 
 ### Material
 
-- **Practical:** https://guides.mixomics.org/mxoorg-workshop-intro-mixomics/
+- **Practical:** https://guides.mixomics.org/mxoorg-workshop-intro-mixomics/practical/multivariate_analysis.html
 - **Webinar recording:** https://mixomics.org/introduction-to-mixomics/ — watch
   this before the session.
-- **R script:** [multivariate_analysis.R](multivariate_analysis.R) — the code from
-  the practical on its own, for following along during the session.
-- **Source:** [multivariate_analysis.Rmd](multivariate_analysis.Rmd)
 
 ### What the session covers
 
