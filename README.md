@@ -9,7 +9,7 @@ own machine.
 
 | Audience | Prerequisites | Duration |
 | --- | --- | --- |
-| Biologists and computational biologists | Working knowledge of R | ~ 1.5 hours |
+| Biologists and computational biologists | [Introduction to mixOmics](https://mixomics.org/introduction-to-mixomics/) video, and a working knowledge of R | ~ 1.5 hours |
 
 ### Material
 
@@ -37,7 +37,13 @@ so you can attempt them first.
 
 ### Before the workshop
 
-Install R, then RStudio. Use recent versions of both:
+**1. Watch the video.** Start with the
+[Introduction to mixOmics](https://mixomics.org/introduction-to-mixomics/)
+recording. It covers the ideas the practical assumes, so the session itself can
+be spent on the hands-on work rather than on the theory.
+
+**2. Install the software.** Install R, then RStudio. Use recent versions of
+both:
 
 - [R](https://cran.r-project.org/) (R 4.0 or later)
 - [RStudio](https://posit.co/download/rstudio-desktop/#download)
