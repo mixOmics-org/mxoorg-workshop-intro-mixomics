@@ -13,7 +13,7 @@ own machine.
 
 ### Material
 
-- **Practical:** https://mixomics-org.github.io/mxoorg-workshop-intro-mixomics/
+- **Practical:** https://guides.mixomics.org/mxoorg-workshop-intro-mixomics/
 - **Slides:** [slides-intro-mixomics.pdf](slides-intro-mixomics.pdf)
 - **R script:** [multivariate_analysis.R](multivariate_analysis.R) — the code from
   the practical on its own, for following along during the session.
