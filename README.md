@@ -9,12 +9,13 @@ own machine.
 
 | Audience | Prerequisites | Duration |
 | --- | --- | --- |
-| Biologists and computational biologists | [Introduction to mixOmics](https://mixomics.org/introduction-to-mixomics/) video, and a working knowledge of R | ~ 1.5 hours |
+| Biologists and computational biologists | [Introduction to mixOmics](https://mixomics.org/introduction-to-mixomics/) webinar, and a working knowledge of R | ~ 1.5 hours |
 
 ### Material
 
 - **Practical:** https://guides.mixomics.org/mxoorg-workshop-intro-mixomics/
-- **Slides:** [slides-intro-mixomics.pdf](slides-intro-mixomics.pdf)
+- **Webinar recording:** https://mixomics.org/introduction-to-mixomics/ — watch
+  this before the session.
 - **R script:** [multivariate_analysis.R](multivariate_analysis.R) — the code from
   the practical on its own, for following along during the session.
 - **Source:** [multivariate_analysis.Rmd](multivariate_analysis.Rmd)
@@ -37,7 +38,7 @@ so you can attempt them first.
 
 ### Before the workshop
 
-**1. Watch the video.** Start with the
+**1. Watch the webinar.** Start with the
 [Introduction to mixOmics](https://mixomics.org/introduction-to-mixomics/)
 recording. It covers the ideas the practical assumes, so the session itself can
 be spent on the hands-on work rather than on the theory.
@@ -68,7 +69,7 @@ library(mixOmics)
 This material derives from
 [melbintgen/intro-to-multivariate-analysis](https://github.com/melbintgen/intro-to-multivariate-analysis),
 written by Kim-Anh Lê Cao for Melbourne Integrative Genomics, with thanks to
-Saritha Kodikara.
+Dr Saritha Kodikara.
 
 ### Licence
 
