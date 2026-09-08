@@ -12,10 +12,9 @@ own laptops.
 | Biologists and computational biologists | Watch the [Introduction to mixOmics](https://mixomics.org/introduction-to-mixomics/) webinar beforehand; a working knowledge of R | ~ 1.5 hours |
 
 ### Material
-- **Webinar recording:** https://mixomics.org/introduction-to-mixomics/ — watch
-  this before the session.
+- [**Webinar recording**](https://mixomics.org/introduction-to-mixomics/)
 
-- **Practical:** https://guides.mixomics.org/mxoorg-workshop-intro-mixomics/practical/multivariate_analysis.html
+- [**Practical link**](https://guides.mixomics.org/mxoorg-workshop-intro-mixomics/practical/multivariate_analysis.html)
 
 
 ### What the session covers
